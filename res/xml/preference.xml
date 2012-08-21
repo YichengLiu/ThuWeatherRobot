@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+                
+    <PreferenceCategory
+            android:title="网络设置">
+
+        <EditTextPreference
+                android:key="@string/server_editor"
+                android:title="服务器设置"
+                android:summary="设置聊天机器人服务所在地址"
+                android:dialogTitle="服务器地址：端口号" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
